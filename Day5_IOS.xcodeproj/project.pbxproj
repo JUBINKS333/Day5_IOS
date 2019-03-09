@@ -12,8 +12,6 @@
 		9BCE8C6B223333A6008ED691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE8C69223333A6008ED691 /* Main.storyboard */; };
 		9BCE8C6D223333A7008ED691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE8C6C223333A7008ED691 /* Assets.xcassets */; };
 		9BCE8C70223333A7008ED691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE8C6E223333A7008ED691 /* LaunchScreen.storyboard */; };
-		9BCE8C7B223333A7008ED691 /* Day5_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE8C7A223333A7008ED691 /* Day5_IOSTests.swift */; };
-		9BCE8C86223333A7008ED691 /* Day5_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE8C85223333A7008ED691 /* Day5_IOSUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		9BCE8C6F223333A7008ED691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCE8C71223333A7008ED691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCE8C76223333A7008ED691 /* Day5_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day5_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BCE8C7A223333A7008ED691 /* Day5_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_IOSTests.swift; sourceTree = "<group>"; };
-		9BCE8C7C223333A7008ED691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCE8C81223333A7008ED691 /* Day5_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day5_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BCE8C85223333A7008ED691 /* Day5_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_IOSUITests.swift; sourceTree = "<group>"; };
-		9BCE8C87223333A7008ED691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				9BCE8C64223333A6008ED691 /* Day5_IOS */,
-				9BCE8C79223333A7008ED691 /* Day5_IOSTests */,
-				9BCE8C84223333A7008ED691 /* Day5_IOSUITests */,
 				9BCE8C63223333A6008ED691 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				9BCE8C71223333A7008ED691 /* Info.plist */,
 			);
 			path = Day5_IOS;
-			sourceTree = "<group>";
-		};
-		9BCE8C79223333A7008ED691 /* Day5_IOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				9BCE8C7A223333A7008ED691 /* Day5_IOSTests.swift */,
-				9BCE8C7C223333A7008ED691 /* Info.plist */,
-			);
-			path = Day5_IOSTests;
-			sourceTree = "<group>";
-		};
-		9BCE8C84223333A7008ED691 /* Day5_IOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9BCE8C85223333A7008ED691 /* Day5_IOSUITests.swift */,
-				9BCE8C87223333A7008ED691 /* Info.plist */,
-			);
-			path = Day5_IOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCE8C7B223333A7008ED691 /* Day5_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCE8C86223333A7008ED691 /* Day5_IOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
